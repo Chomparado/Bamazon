@@ -3,7 +3,7 @@ var mysql = require('mysql');
 var connection = mysql.createConnection({
 	host	: 'm7wltxurw8d2n21q.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
 	user	: 'gb7es5xmh3fqrnim',
-	password: 'Optionselect1!',
+	password: 'qweqweqweqweqwe!',
 	database: 'rdpd4h0nf751vwtr'
 });
 
@@ -28,7 +28,7 @@ var query = connection.query('SELECT * FROM Products', function(err, rows){
 			var connection = mysql.createConnection({
 				host	: 'm7wltxurw8d2n21q.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
 				user	: 'gb7es5xmh3fqrnim',
-				password: 'Optionselect1!',
+				password: 'qweqweqweqweqwe!',
 				database: 'rdpd4h0nf751vwtr'
 			});
 
